@@ -1,0 +1,28 @@
+
+_squid:S1192Î"GDefine a constant instead of duplicating this literal "isdel" 10 times.(È¿ ›
+`squid:S1192’"HDefine a constant instead of duplicating this literal "ispass" 10 times.(æ‡‹Â
+`squid:S1192Ø"HDefine a constant instead of duplicating this literal "userId" 10 times.(Ëÿ¤–
+esquid:S1192–"MDefine a constant instead of duplicating this literal "description" 12 times.(ë¸¥¸
+asquid:S1192"IDefine a constant instead of duplicating this literal "contact" 12 times.(óÁ¨ü
+esquid:S1192”"HDefine a constant instead of duplicating this literal "typeId" 10 times.(ª»Î»ÿÿÿÿÿ
+bsquid:S1192Ô"JDefine a constant instead of duplicating this literal "floorage" 10 times.(ÜÀû
+bsquid:S1192Ö"JDefine a constant instead of duplicating this literal "streetId" 10 times.(ºº‘—
+dsquid:S1192Ü"GDefine a constant instead of duplicating this literal "price" 10 times.(¦·Ø¡øÿÿÿÿ
+asquid:S1192˜"IDefine a constant instead of duplicating this literal "pubdate" 10 times.(»Ô€
+_squid:S1192Ğ"GDefine a constant instead of duplicating this literal "title" 12 times.(“õ¾¤
+lsquid:S1192a"PDefine a constant instead of duplicating this literal " cannot be null" 4 times.(õÜ—ºşÿÿÿÿ
+osquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏßÉe
+psquid:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÎ³Ù
+psquid:S2293x"YReplace the type specification in this constructor call with the diamond operator ("<>").(·ü–
+wsquid:S1488:"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì
+csquid:S00112Z"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+csquid:S00112a"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºşÿÿÿÿ
+]squid:S00112h"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+csquid:S00112o"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºşÿÿÿÿ
+^squid:S00112v"FDefine and throw a dedicated exception instead of using a generic one.(Áš¹
+^squid:S00112‚"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+Tsquid:S11553">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Zsquid:S1155M">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ
+Usquid:S1155u">Use isEmpty() to check whether the collection is empty or not.(ÍÃ‘Æ

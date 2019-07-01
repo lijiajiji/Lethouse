@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--properties标签表示引入外部文件标签-->
+    <!--<properties resource="db.properties"></properties>-->
+    <!--别名设置-->
+    <typeAliases>
+        <!--type属性表示类型，属性值一般为类的类地址 alias表示别名-->
+        <package name="com.kgc.entity" ></package>
+
+    </typeAliases>
+  <!--  &lt;!&ndash;连接数据库的环境设置&ndash;&gt;
+    <environments default="development">&lt;!&ndash;开发环境&ndash;&gt;
+        <environment id="development">&lt;!&ndash;标识&ndash;&gt;
+            <transactionManager type="JDBC"/>&lt;!&ndash;事物的类型&ndash;&gt;
+            &lt;!&ndash;POOLED表示合并数据源，连接数据库的时候允许多种数据源同时连接数据库&ndash;&gt;
+            <dataSource type="POOLED">&lt;!&ndash;连接数据库数据源&ndash;&gt;
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>-->
+
+    <!--添加分页的插件-->
+    <plugins>
+    <!-- com.github.pagehelper为PageHelper类所在包名 -->
+    <plugin interceptor="com.github.pagehelper.PageInterceptor"/>
+</plugins>
+
+
+    <!--映射器在核心配置文件中关联映射实体类映射文件-->
+    <mappers>
+        <mapper resource="com/kgc/mapper/DistrictMapper.xml"/>
+        <mapper resource="com/kgc/mapper/HouseMapper.xml"/>
+        <mapper resource="com/kgc/mapper/StreetMapper.xml"/>
+        <mapper resource="com/kgc/mapper/TypeMapper.xml"/>
+        <mapper resource="com/kgc/mapper/UsersMapper.xml"/>
+    </mappers>
+</configuration>
