@@ -1,24 +1,24 @@
 
-Nsquid:S1066‰"/Merge this if statement with the enclosing one.(ž·è€8Ó”Ôœ¹-
+nsquid:CommentedOutCodeLinet"<This block of commented-out lines of code should be removed.(™™²ìøÿÿÿÿ8Ñ Íœ¹-
 osquid:CommentedOutCodeLine‚"<This block of commented-out lines of code should be removed.(²¤¡Óøÿÿÿÿ8Ñ Íœ¹-
-jsquid:S00112p"FDefine and throw a dedicated exception instead of using a generic one.(É™è„ûÿÿÿÿ8Ñ Íœ¹-
-msquid:S30274"JPut single-quotes around '.' to use the faster "lastIndexOf(char)" method.(Àäñšþÿÿÿÿ8ÁËÏ¸-
 ksquid:S00112”"FDefine and throw a dedicated exception instead of using a generic one.(·Áæëøÿÿÿÿ8Ü¿ñ¹-
-jsquid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(­ÉÂ¿8Ñ Íœ¹-
-jsquid:S00112#"FDefine and throw a dedicated exception instead of using a generic one.(»Çžüÿÿÿÿ8ÁËÏ¸-
+msquid:S4042Š"IUse "java.nio.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ8Ñ Íœ¹-
+isquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(òÑ¬ž8ÁËÏ¸-
 ]
 squid:S899I";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ8ÁËÏ¸-
-©%squid:RedundantThrowsDeclarationCheck#"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(»Çžüÿÿÿÿ8ÁËÏ¸-
-lsquid:S4042I"IUse "java.nio.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ8ÁËÏ¸-
-msquid:S4042Š"IUse "java.nio.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ8Ñ Íœ¹-
-¤%squid:RedundantThrowsDeclarationCheckQ"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Â¹¡Ø8¶‚Çó¸-
 isquid:CommentedOutCodeLinew"<This block of commented-out lines of code should be removed.(ï‹Æ8Ñ Íœ¹-
-nsquid:CommentedOutCodeLinet"<This block of commented-out lines of code should be removed.(™™²ìøÿÿÿÿ8Ñ Íœ¹-
-jsquid:S001121"FDefine and throw a dedicated exception instead of using a generic one.(þ½°âÿÿÿÿÿ8ÁËÏ¸-
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éˆäµýÿÿÿÿ
-ª%squid:RedundantThrowsDeclarationCheck”"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(·Áæëøÿÿÿÿ8¸Ïµ„º-
+¤%squid:RedundantThrowsDeclarationCheckQ"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Â¹¡Ø8¶‚Çó¸-
+jsquid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(­ÉÂ¿8Ñ Íœ¹-
 esquid:S00112Q"FDefine and throw a dedicated exception instead of using a generic one.(Â¹¡Ø8¹ÿÅó¸-
+msquid:S30274"JPut single-quotes around '.' to use the faster "lastIndexOf(char)" method.(Àäñšþÿÿÿÿ8ÁËÏ¸-
+lsquid:S4042I"IUse "java.nio.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ8ÁËÏ¸-
+Nsquid:S1066‰"/Merge this if statement with the enclosing one.(ž·è€8Ó”Ôœ¹-
+jsquid:S00112#"FDefine and throw a dedicated exception instead of using a generic one.(»Çžüÿÿÿÿ8ÁËÏ¸-
+©%squid:RedundantThrowsDeclarationCheck#"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(»Çžüÿÿÿÿ8ÁËÏ¸-
+ª%squid:RedundantThrowsDeclarationCheck”"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(·Áæëøÿÿÿÿ8¸Ïµ„º-
+jsquid:S001121"FDefine and throw a dedicated exception instead of using a generic one.(þ½°âÿÿÿÿÿ8ÁËÏ¸-
+osquid:CommentedOutCodeLine„"<This block of commented-out lines of code should be removed.(žÅÄíùÿÿÿÿ8Ñ Íœ¹-
+jsquid:S00112p"FDefine and throw a dedicated exception instead of using a generic one.(É™è„ûÿÿÿÿ8Ñ Íœ¹-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éˆäµýÿÿÿÿ
 ^
 squid:S899Š";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ8Ñ Íœ¹-
-osquid:CommentedOutCodeLine„"<This block of commented-out lines of code should be removed.(žÅÄíùÿÿÿÿ8Ñ Íœ¹-
-isquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(òÑ¬ž8ÁËÏ¸-

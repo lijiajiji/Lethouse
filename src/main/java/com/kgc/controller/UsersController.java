@@ -96,7 +96,7 @@ public class UsersController {
          int temp=userService.addUser(users);
          if(temp>0){
 
-             return "logins";
+             return "login";
          }else {
              return "error";
          }
@@ -105,17 +105,30 @@ public class UsersController {
     /**
      *实现登入功能
      */
-    @RequestMapping("logins")
-    public String login(String username, String password, HttpSession session, Model model){
-        Users users=userService.login(username,password,1);
-        if(users==null){
-            model.addAttribute("info","用户密码错误！");
-            return "logins";
-        }else {
-            session.setAttribute("user",users);
-            session.setMaxInactiveInterval(30);
-             return "admin" ;
+    @RequestMapping("login")
+    public String login(String inputCode,String username, String password, HttpSession session, Model model){
+        //比较验证码
+        //获取手机验证码
+        String code=session.getAttribute("code").toString();
+        if(code.equals(inputCode)){
+            //调用业务
+            Users user=userService.login(username,password,1);
+            if(user==null) {
+                model.addAttribute("info","用户名密码错误!");
+                return "login";  //继续登入
+            }
+            else {
+                //只要登入:使用session或者cookie保存登入的信息
+                session.setAttribute("user",user);
+                session.setMaxInactiveInterval(600); //30秒
+                return "redirect:getUserHouse";  //用户中心的管理页
+            }
+        }else{
+            model.addAttribute("info","验证码错语!眼神不好使就医");
+            return "login";  //用户中心的管理页
         }
+
+    }
 
     }
 
@@ -123,4 +136,4 @@ public class UsersController {
 
 
 
-}
+
